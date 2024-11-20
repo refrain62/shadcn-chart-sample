@@ -1,10 +1,24 @@
 https://reffect.co.jp/react/shadcn-ui-chart
 
 
-npx create-next-app@latest
-cd ./shadcn-chart-sample
-npx shadcn@latest init
-npx shadcn@latest add chart
+$ npx create-next-app@latest
+$ cd ./shadcn-chart-sample
+$ npx shadcn@latest init
+$ npx shadcn@latest add chart
+
+-- 実行
+$ npm run dev
+
+
+-- テーマの追加
+オプション付けないとインストールできなかった
+「ERR! ERESOLVE could not resolve」
+$ npm install --save --legacy-peer-deps next-themes
+
+
+-- テーマ切り替え用
+ $ npx shadcn@latest add dropdown-menu
+ $ npx shadcn@latest add button
 
 
 

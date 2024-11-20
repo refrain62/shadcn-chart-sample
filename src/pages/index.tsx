@@ -1,6 +1,7 @@
 import localFont from "next/font/local";
 
 import { Component } from "@/components/example-chat";
+import Layout from "@/components/layout";
 
 const geistSans = localFont({
   src: "./fonts/GeistVF.woff",
@@ -16,7 +17,9 @@ const geistMono = localFont({
 export default function Home() {
   return (
     <main className="flex min-h-screen flex-col items-center justify-between p-24">
+      <Layout>
       <Component />
+      </Layout>
     </main>
   );
 }
