@@ -1,3 +1,6 @@
+https://reffect.co.jp/react/shadcn-ui-chart
+
+
 npx create-next-app@latest
 cd ./shadcn-chart-sample
 npx shadcn@latest init
